@@ -21,3 +21,24 @@ End-to-end CMOS NAND gate design in gpdk090 including layout, physical verificat
   <li>ADE L (Analog Design Environment)</li>
   <li>Technology Library - gpdk090</li>
 </ul>
+
+
+<h2>Circuit Description</h2>
+
+<p>The CMOS NAND gate is implemented using complementary MOS transistors -</p>
+
+<ul>
+  <li><b>Pull-up network (PUN) -</b> Two PMOS transistors connected in parallel</li>
+  <li><b>Pull-down network (PDN) -</b> Two NMOS transistors connected in series</li>
+</ul>
+
+<p><b>Operation:</b></p>
+
+<ul>
+  <li>Output is LOW only when both inputs are HIGH</li>
+  <li>Output is HIGH for all other input combinations</li>
+</ul>
+
+<p>
+This configuration ensures correct NAND logic functionality with low static power consumption.
+</p>
