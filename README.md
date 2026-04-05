@@ -72,3 +72,7 @@ This configuration ensures correct NAND logic functionality with low static powe
     <td>0</td>
   </tr>
 </table>
+
+<h2>Schematic</h2>
+
+<img src="https://github.com/Rionshaw/cmos-inverter-gpdk090/blob/bf3653e3debf6f5d914466718e5231e553d66ca0/Screenshot-9.png" alt="Schematic of NAND gate">
