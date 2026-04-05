@@ -32,7 +32,7 @@ End-to-end CMOS NAND gate design in gpdk090 including layout, physical verificat
   <li><b>Pull-down network (PDN) -</b> Two NMOS transistors connected in series</li>
 </ul>
 
-<p><b>Operation:</b></p>
+<p><b>Operation -</b></p>
 
 <ul>
   <li>Output is LOW only when both inputs are HIGH</li>
@@ -42,3 +42,33 @@ End-to-end CMOS NAND gate design in gpdk090 including layout, physical verificat
 <p>
 This configuration ensures correct NAND logic functionality with low static power consumption.
 </p>
+
+<h3>Thuth Table</h3>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>A</th>
+    <th>B</th>
+    <th>Y = NAND(A,B)</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+</table>
